@@ -25,6 +25,20 @@ ul{
     list-style: none;
 }
 
+.container-big{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+
+}
+
+.pic{
+    width: 100%;
+}
+
 /*
 Header
 */
@@ -50,7 +64,7 @@ header a{
     color: #474747;
 }
 
-.header-btn{
+.btn{
     background-color: #0061ff;
     padding: 5px;
     color: white;
@@ -60,6 +74,28 @@ header a{
 Main
 */
 
+.jumbo{
+    background-color: #b4d0e7;
+    padding-top: 80px;
+}
+
+.col-1{
+    width: 30%;
+}
+
+.col-2{
+    width: 70%;
+}
+
+.jumbo .container-big h1{
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.jumbo .container-big .row .btn{
+    margin: 35px 0;
+}
 
 /*
 Footer
