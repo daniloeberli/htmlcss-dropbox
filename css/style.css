@@ -26,13 +26,17 @@ ul{
 }
 
 .container-big{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-small{
     width: 60%;
     margin: 0 auto;
 }
 
 .row{
     display: flex;
-
 }
 
 .pic{
@@ -49,6 +53,10 @@ header{
     padding: 25px 10px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
 }
 
@@ -95,6 +103,11 @@ Main
 
 .jumbo .container-big .row .btn{
     margin: 35px 0;
+}
+
+.big-col{
+    width: calc(100% / 3);
+    border: 2px solid black;
 }
 
 /*
