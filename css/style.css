@@ -130,3 +130,19 @@ Main
 /*
 Footer
 */
+
+footer{
+    background-color: black;
+}
+
+footer .container-big .col-footer{
+    width: calc(100% / 5);
+    color: white;
+}
+
+.col-footer a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
