@@ -41,6 +41,17 @@ ul{
     width: 100%;
 }
 
+.btn{
+    background-color: #0061ff;
+    padding: 5px;
+    color: white;
+}
+
+.btn-alt{
+    background-color: white;
+    padding: 5px;
+    color: black;
+}
 /*
 Header
 */
@@ -69,12 +80,6 @@ header a{
     padding: 0 5px;
     color: #474747;
     text-decoration: none;
-}
-
-.btn{
-    background-color: #0061ff;
-    padding: 5px;
-    color: white;
 }
 
 /*
@@ -127,6 +132,28 @@ Main
     display: block;
     width: 100%;
 }
+
+.stats{
+    padding: 100px 0;
+}
+
+.stats h2{
+    padding-bottom: 80px;
+}
+
+.business-section{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+
+.business-col-1{
+    width: 60%;
+}
+
+.business-section .row{
+    justify-content: space-between;
+}
+
 /*
 Footer
 */
