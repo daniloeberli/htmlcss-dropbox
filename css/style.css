@@ -45,12 +45,14 @@ ul{
     background-color: #0061ff;
     padding: 5px;
     color: white;
+    display: inline;
 }
 
 .btn-alt{
     background-color: white;
     padding: 5px;
     color: black;
+    display: inline;
 }
 /*
 Header
@@ -72,6 +74,7 @@ header{
 header .header-col-1 ul,
 header .header-col-2 ul{
     display: flex;
+    align-items: center;
 
 }
 
@@ -110,8 +113,30 @@ Main
 }
 
 .big-col{
-    width: calc(100% / 3);
-    border: 2px solid black;
+    width: calc(100% / 3 - 40px);
+    border: 1px solid #d0d0d3;
+}
+
+#business-plan .row .big-col .col-head{
+    border: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#business-plan .row{
+    margin: -20px;
+}
+
+#business-plan .row .big-col{
+    margin: 20px;
+}
+
+#business-plan h2{
+    padding-bottom: 40px;
+}
+
+#business-plan-btn{
+    padding-bottom: 20px;
 }
 
 .col-horiz{
@@ -148,10 +173,40 @@ Main
 
 .business-col-1{
     width: 60%;
+    color: #61082b;
+    font-size: 35px;
 }
 
 .business-section .row{
     justify-content: space-between;
+    align-items: baseline;
+}
+
+#business-operation .row{
+    margin: -20px;
+}
+
+#business-operation .row .big-col{
+    margin: 20px;
+    border: 0;
+}
+
+#business-operation h2{
+    padding-bottom: 40px;
+}
+
+
+
+#faq{
+    padding: 100px 0;
+}
+
+#faq h2{
+    padding-bottom: 40px;
+}
+
+#faq h4{
+    padding: 20px 0;
 }
 
 /*
@@ -160,6 +215,8 @@ Footer
 
 footer{
     background-color: black;
+    padding-top: 50px;
+    
 }
 
 footer .container-big .col-footer{
