@@ -53,6 +53,7 @@ ul{
     padding: 5px;
     color: black;
     display: inline;
+    border: 1px solid black;
 }
 /*
 Header
@@ -117,10 +118,35 @@ Main
     border: 1px solid #d0d0d3;
 }
 
+#business-plan{
+    padding: 40px 0;
+}
+
 #business-plan .row .big-col .col-head{
     border: 1px solid #d0d0d3;
     text-align: center;
     padding: 10px 0;
+}
+
+#business-plan .big-col .col-body-1{
+    padding: 30px 20px;
+
+}
+
+#business-plan .big-col .col-body-2,
+#business-plan .big-col .col-body-3{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.col-body-2 *,
+.col-body-3 *{
+    padding: 10px 0;
+}
+
+#business-plan .big-col .btn a{
+    color: white;
+    text-decoration: none;
 }
 
 #business-plan .row{
@@ -141,7 +167,7 @@ Main
 
 .col-horiz{
     width: 100%;
-    border: 2px solid black;
+    border: 1px solid #d0d0d3;
 }
 
 
@@ -151,7 +177,15 @@ Main
 
 .partner-txt{
     width: 45%;
+    padding-left: 30px;
+    padding-top: 50px;
 }
+
+.partner-txt p,
+.partner-txt .btn-alt{
+    padding: 10px 0;
+}
+
 
 .partner-pic img{
     display: block;
@@ -192,9 +226,13 @@ Main
 }
 
 #business-operation h2{
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
+#business-operation h3,
+#business-operation p{
+    padding-top: 20px;
+}
 
 
 #faq{
@@ -207,6 +245,8 @@ Main
 
 #faq h4{
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*
