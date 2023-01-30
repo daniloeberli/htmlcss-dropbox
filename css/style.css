@@ -43,17 +43,19 @@ ul{
 
 .btn{
     background-color: #0061ff;
-    padding: 5px;
+    padding: 5px 15px;
     color: white;
     display: inline;
+    text-align: center;
 }
 
 .btn-alt{
     background-color: white;
-    padding: 5px;
+    padding: 5px 15px;
     color: black;
     display: inline;
     border: 1px solid black;
+    text-align: center;
 }
 /*
 Header
@@ -69,6 +71,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 
 }
 
@@ -92,7 +95,7 @@ Main
 
 .jumbo{
     background-color: #b4d0e7;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .col-1{
@@ -106,12 +109,23 @@ Main
 .jumbo .container-big h1{
     padding-bottom: 40px;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
+    padding-top: 70px;
 }
 
-.jumbo .container-big .row .btn{
-    margin: 35px 0;
+.jumbo .container-big{
+    position: relative;
+    top: 70px;
 }
+.jumbo .col-1 p{
+    padding-bottom: 20px;
+}
+
+.jumbo .col-1 a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .big-col{
     width: calc(100% / 3 - 40px);
@@ -119,7 +133,7 @@ Main
 }
 
 #business-plan{
-    padding: 40px 0;
+    padding: 90px 0;
 }
 
 #business-plan .row .big-col .col-head{
@@ -181,11 +195,15 @@ Main
     padding-top: 50px;
 }
 
-.partner-txt p,
-.partner-txt .btn-alt{
+.partner-txt p{
     padding: 10px 0;
+    margin-bottom: 20px;
 }
 
+.partner-txt a{
+    text-decoration: none;
+    color: black;
+}
 
 .partner-pic img{
     display: block;
@@ -209,6 +227,7 @@ Main
     width: 60%;
     color: #61082b;
     font-size: 35px;
+    font-weight: 600;
 }
 
 .business-section .row{
@@ -256,7 +275,7 @@ Footer
 footer{
     background-color: black;
     padding-top: 50px;
-    
+    padding-bottom: 30px;
 }
 
 footer .container-big .col-footer{
@@ -268,5 +287,20 @@ footer .container-big .col-footer{
     color: white;
     text-decoration: none;
     display: block;
+    font-size: 13px;
+    line-height: 1.5;
 }
 
+.col-footer h6{
+    color: lightgray;
+}
+
+.col-footer hr{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+footer .title{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
