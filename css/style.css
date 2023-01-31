@@ -54,7 +54,7 @@ ul{
     padding: 5px 15px;
     color: black;
     display: inline;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -264,6 +264,15 @@ business plan
     font-size: 18px;
 }
 
+#business-plan h5{
+    font-weight: 100;
+}
+
+#business-plan .col-horiz a{
+    text-decoration: none;
+    color: white;
+}
+
 /*
 contact partner
 */
@@ -295,6 +304,14 @@ contact partner
 .partner-pic img{
     display: block;
     width: 100%;
+}
+
+/*
+business operation
+*/
+
+#business-operation h2{
+    font-size: 30px;
 }
 
 /*
