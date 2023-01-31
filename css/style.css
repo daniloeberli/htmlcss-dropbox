@@ -61,6 +61,11 @@ ul{
 strong{
     display: block;
 }
+
+#yearly{
+    margin-left: 20px;
+}
+
 /*
 Header
 */
@@ -88,7 +93,7 @@ header .header-col-2 ul{
 
 
 header a{
-    padding: 0 5px;
+    padding: 0 10px;
     color: #474747;
     text-decoration: none;
 }
@@ -114,7 +119,7 @@ Main
     padding-bottom: 40px;
     font-size: 77px;
     font-weight: 800;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .jumbo .container-big{
@@ -134,6 +139,14 @@ Main
 #annulla{
     margin-top: 30px;
     margin-bottom: 70px;
+}
+
+.or{
+    padding-top: 30px;
+}
+
+.or a{
+    color: #0061ff;
 }
 
 .jumbo .col-1 i{
@@ -172,6 +185,7 @@ Main
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    align-items: flex-start;
 }
 
 .col-horiz p{
@@ -181,6 +195,7 @@ Main
 #business-plan{
     padding: 90px 0;
 }
+
 
 #business-plan  .col-head{
     border: 1px solid #d0d0d3;
@@ -226,6 +241,7 @@ Main
 
 #business-plan .row{
     margin: -20px;
+    padding-top: 30px;
 }
 
 #business-plan .row .big-col{
@@ -234,10 +250,18 @@ Main
 
 #business-plan h2{
     padding-bottom: 40px;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 #business-plan-btn{
     padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#contact-partner{
+    padding-bottom: 40px;
 }
 
 .partner-pic{
@@ -422,6 +446,7 @@ footer .container-big .col-footer{
 .col-footer hr{
     margin-top: 60px;
     margin-bottom: 30px;
+    width: 15%;
 }
 
 footer .title{
