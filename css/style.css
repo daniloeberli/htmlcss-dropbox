@@ -24,11 +24,13 @@ ul{
 
 .container-big{
     width: 70%;
+    /*1200px*/
     margin: 0 auto;
 }
 
 .container-small{
     width: 60%;
+    /*100px*/
     margin: 0 auto;
 }
 
@@ -54,7 +56,7 @@ ul{
     padding: 5px 15px;
     color: black;
     display: inline;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -143,7 +145,7 @@ jumbotron
 }
 
 .jumbo .col-1 i{
-    font-size: 40px;
+    font-size: 45px;
 }
 
 #annulla{
@@ -179,6 +181,10 @@ business plan
 
 .big-col hr{
     width: 20%;
+}
+
+#business-plan .big-col hr{
+    margin-left: 20px;
 }
 
 .col-horiz-1{
@@ -218,6 +224,25 @@ business plan
 #business-plan .big-col .col-body-3{
     padding: 30px 20px;
 
+}
+
+#business-plan .col-body-1 div{
+    font-weight: 200;
+    color: gray;
+}
+
+#business-plan .col-body-1 strong{
+    padding: 8px 0;
+}
+
+#business-plan .col-body-2 > *{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+#business-plan .col-body-2 i{
+    padding-right: 5px;
 }
 
 .col-body-2{
@@ -272,6 +297,11 @@ business plan
     text-decoration: none;
     color: white;
 }
+
+#business-plan .col-horiz p{
+    font-size: 14px;
+}
+
 
 /*
 contact partner
